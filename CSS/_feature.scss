@@ -1,0 +1,56 @@
+#fashion{
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    .row{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        align-items: center;
+        position: relative;
+        padding: 40px 0;
+
+        .col{
+            position: relative;
+            text-align: center;
+
+            img{
+                width: 100%;
+                height: auto;
+
+                &::after{
+                    width: 100%;
+                    height: auto;
+                    background: rgba(0,0,0,0.5);
+                }
+            }
+            .content{
+                content: '';
+                position: absolute;
+                margin-bottom: 10%;
+                bottom: 0;
+
+                h3{
+                    color: var(--text-color);
+                    font-size: 20px;
+                    font-weight: 800;
+                }
+                h5{
+                    color: var(--text-color);
+                    font-size: 15px;
+
+                }
+            }
+        }
+    }
+}
+
+
+//         .col{
+//             flex-basis: 35%;
+//             z-index: 1;
+
+//             .content{
+//                 z-index: 2;
+//                 transform: translateY(25px);

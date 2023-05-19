@@ -1,0 +1,32 @@
+:root{
+    --header-color: #40739e;
+    --text-color: #ffffff;
+    --other-color: #1e272e;
+    --bg-color: #f1f2f6;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    background: var(--bg-color);
+    border: 2px solid #341f97;
+    color: #1e272e;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    transition: 0.5s all ease;
+
+    &:hover{
+        background: #ff3f34;
+        color: var(--bg-color);
+        // font-weight: 600;
+    }
+}
+.container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
