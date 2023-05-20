@@ -1,0 +1,55 @@
+#cta-content{
+    width: 100%;
+    background: url(../Img/About.png)no-repeat;
+    max-height: 100%;
+    background-size: cover;
+    background-position: center;
+
+    .cta{
+        width: 100%;
+        height: auto;
+        margin: 0 45px;
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
+
+        .cta-text{
+            max-width: 500px;
+            justify-content: space-between;
+            align-items: center;
+
+            p{
+                font-size: 15px;
+                color: #1e272e;
+                margin-bottom: 1rem;
+                line-height: 1.2;
+            }
+            h2{
+                font-size: 30px;
+                font-weight: 800;
+                color: #ff3f34;
+                margin-bottom: 1rem;
+            }
+            h3{
+                font-size: 18px;
+                font-weight: 800;
+                color: #1e272e;
+                margin-bottom: 1rem;
+            }
+            button{
+                font-size: 15px;
+                padding: 10px 15px;
+                background: #ffffff;
+                color: #1e272e;
+                border: 2px solid #3c40c6;
+                font-weight: 800;
+                border-radius: 10px;
+
+                &:hover{
+                    color: #ffffff;
+                    background: #ff3f34;
+                }
+            }
+            }
+        }
+    }

@@ -33,6 +33,13 @@ img {
   margin: auto;
 }
 
+.middle-text h2 {
+  font-size: 2.2rem;
+  color: #1e272e;
+  font-weight: 800;
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -165,11 +172,6 @@ section {
   width: 100%;
   height: auto;
 }
-#fashion .row .col img::after {
-  width: 100%;
-  height: auto;
-  background: rgba(0, 0, 0, 0.5);
-}
 #fashion .row .col .content {
   content: "";
   position: absolute;
@@ -184,6 +186,127 @@ section {
 #fashion .row .col .content h5 {
   color: var(--text-color);
   font-size: 15px;
+}
+
+#product .product-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, auto));
+  gap: 2rem;
+  align-items: center;
+  margin-top: 3.5rem;
+  margin: 0 30px;
+}
+#product .product-content .box {
+  padding-bottom: 30px;
+  overflow: hidden;
+  position: relative;
+}
+#product .product-content .box .box-img {
+  margin-bottom: 1.2rem;
+  background: #a4b0be;
+}
+#product .product-content .box .box-content {
+  padding: 0 12px;
+}
+#product .product-content .box .box-content h3 {
+  font-size: 23px;
+  font-weight: 800;
+  color: #1e272e;
+  margin-bottom: 1rem;
+  line-height: 1.1rem;
+}
+#product .product-content .box .box-content h5 {
+  font-size: 15px;
+  color: #4b4b4b;
+  font-weight: 1000;
+}
+#product .product-content .box .box-content .inbox .price a {
+  display: inline-block;
+  margin: 6px 0;
+  background: transparent;
+  color: #1e272e;
+  font-size: 20px;
+  font-weight: 600;
+}
+#product .product-content .box .box-content .rating a {
+  font-size: 22px;
+  color: #1e272e;
+  margin-right: 4px;
+  transition: 0.3s all ease;
+}
+#product .product-content .box .box-content .rating a:hover {
+  color: #ff3f34;
+}
+#product .product-content .box .box-content .hert {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 30px;
+  height: 30px;
+  background: #ff3f34;
+  color: #ffffff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+#product .product-content .box .box-content .hert:hover {
+  background: #ffffff;
+  color: #ff3f34;
+}
+#product .product-content .box .box-content .hert i {
+  font-size: 20px;
+}
+
+#cta-content {
+  width: 100%;
+  background: url(../Img/About.png) no-repeat;
+  max-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+#cta-content .cta {
+  width: 100%;
+  height: auto;
+  margin: 0 45px;
+}
+#cta-content .cta .cta-text {
+  max-width: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+#cta-content .cta .cta-text p {
+  font-size: 15px;
+  color: #1e272e;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+#cta-content .cta .cta-text h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #ff3f34;
+  margin-bottom: 1rem;
+}
+#cta-content .cta .cta-text h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #1e272e;
+  margin-bottom: 1rem;
+}
+#cta-content .cta .cta-text button {
+  font-size: 15px;
+  padding: 10px 15px;
+  background: #ffffff;
+  color: #1e272e;
+  border: 2px solid #3c40c6;
+  font-weight: 800;
+  border-radius: 10px;
+}
+#cta-content .cta .cta-text button:hover {
+  color: #ffffff;
+  background: #ff3f34;
 }
 
 @media (max-width: 991px) {

@@ -1,0 +1,85 @@
+#product{
+    .product-content{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, auto));
+        gap: 2rem;
+        align-items: center;
+        margin-top: 3.5rem;
+        margin: 0 30px;
+
+        .box{
+            padding-bottom: 30px;
+            overflow: hidden;
+            position: relative;
+
+            .box-img{
+                margin-bottom: 1.2rem;
+                background: #a4b0be;
+            }
+            .box-content{
+                padding: 0 12px;
+
+                h3{
+                    font-size: 23px;
+                    font-weight: 800;
+                    color: #1e272e;
+                    margin-bottom: 1rem;
+                    line-height: 1.1rem;
+                }
+                h5{
+                    font-size: 15px;
+                    color: #4b4b4b;
+                    font-weight: 1000;
+                }
+                .inbox{
+                    .price{
+                        a{
+                            display: inline-block;
+                            margin: 6px 0;
+                            background: transparent;
+                            // border: 2px solid white;
+                            color: #1e272e;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+                .rating{
+                    a{
+                        font-size: 22px;
+                        color: #1e272e;
+                        margin-right: 4px;
+                        transition: 0.3s all ease;
+
+                        &:hover{
+                            color: #ff3f34;
+                        }
+                    }
+                }
+                .hert{
+                    position: absolute;
+                    right: 15px;
+                    top: 15px;
+                    width: 30px;
+                    height: 30px;
+                    background: #ff3f34;
+                    color: #ffffff;
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    transition: 0.5s all ease;
+
+                    &:hover{
+                        background: #ffffff;
+                        color: #ff3f34;
+                    }
+                    i{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
