@@ -1,0 +1,118 @@
+.footer-up{
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    .footer-up-items{
+        // margin-left: 25px;
+        background: #d2dae2;
+        
+        h2{
+            color: #1e272e;
+            padding: 30px ;
+            font-size: 25px;
+            font-weight: 600;
+        }
+    }
+}
+#footer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: #d2dae2;
+
+    .footer-content{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+        gap: 2rem;
+        align-items: center;
+
+        .footer-logo{
+            margin-top: 70px;
+            // align-items: center;
+            a{
+                font-size: 35px;
+                margin: 0 30px;
+                color: #1e272e;
+                font-weight: 600;
+                // margin-bottom: 200px;
+               
+            }
+            h6{
+                font-size: 20px;
+                margin: 20px 30px;
+                color: #1e272e;
+                font-weight: 800; 
+            }
+        }
+        .singel-content{
+            margin-top: 80px;
+            h5{
+                font-size: 1.1rem;
+                margin-bottom: 20px;
+                // margin-top: 20px;
+            }
+            li{
+                margin-bottom: 10px;
+                a{
+                    display: inline-block;
+                    font-size: 15px;
+                    color: #808e9b;
+                    font-weight: 550;
+                    transition: 0.5s all ease;
+
+                    &:hover{
+                        color: #0fbcf9;
+                        transform: translateX(5px);
+                    }
+                }
+            }
+        }
+        .sub-content{
+            width: 100%;
+            height: auto;
+            margin-top: 30px;
+            align-items: center;
+
+            h5{
+                font-size: 1.1rem;
+                margin-bottom: 20px;
+            }
+            a{
+                border: 1px solid #4bcffa;
+                padding: 8px 55px;
+                background: #ffffff;
+                color: #747d8c;
+                // display: block;
+                cursor: text;
+
+                &:hover{
+                    background: #ff3f34;
+                    color: #ffffff;
+                }
+            }
+            button{
+                display: block;
+                margin: 20px 0;
+                border: 1px solid #3742fa;
+                background: #1e90ff;
+                padding: 8px 10px;
+                color: #ffffff;
+                font-weight: 600;
+                cursor: pointer;
+
+                &:hover{
+                    background: #EA2027;
+                }
+            }
+        }
+    }
+    .footer-bottom-widget{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+
+        p{
+            color: #808e9b;
+        }
+    }
+}

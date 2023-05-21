@@ -1,0 +1,44 @@
+#portate{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: #dfe4ea;
+
+    .portate-container{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        background: #dfe4ea;
+
+        .portate-row{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+            gap: 1rem;
+            align-items: center;
+            margin: 5px 0;
+
+            .portate-col{
+                position: relative;
+                text-align: center;
+
+                img{
+                    width: 90px;
+                    height: 80px;
+                    margin-top: 60px;
+                }
+                h4{
+                    font-size: 17px;
+                    font-weight: 800;
+                    margin-bottom: 15px;
+                    color: #1e272e;
+                }
+                p{
+                    font-size: 15px;
+                    font-weight: 400;
+                    margin-bottom: 80px;
+                    color: #1e272e;
+                }
+            }
+        }
+    }
+}

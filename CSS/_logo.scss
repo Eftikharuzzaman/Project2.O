@@ -1,0 +1,33 @@
+#logo-section{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: #a5b1c2;
+
+    .logo-container{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        // background: blue;
+
+        .logo-row{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+            gap: 2rem;
+            align-items: center;
+            // margin-top: 1rem;
+            margin: 5px 0;
+            // padding: 10px;
+
+            .logo-col{
+                position: relative;
+                text-align: center;
+
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
