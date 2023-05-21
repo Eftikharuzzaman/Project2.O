@@ -319,7 +319,7 @@ section {
 #cta-content .cta {
   width: 100%;
   height: auto;
-  margin: 0 45px;
+  padding: 0 45px;
 }
 #cta-content .cta .cta-text {
   max-width: 500px;
@@ -359,7 +359,6 @@ section {
 }
 
 .footer-up {
-  width: 100%;
   height: auto;
   margin: 5px;
 }
